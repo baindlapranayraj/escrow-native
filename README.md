@@ -51,8 +51,14 @@ $ cargo build
 $ cargo test
 ```
 
+
+
+
 ### Build and test the program compiled for BPF
 ```
 $ cargo build-bpf
 $ cargo test-bpf
 ```
+
+### Conclusion:
+# If your life is sad and you are not happy, then you should write solana-native programs to make your life happier(Trust me bro 🙂).
