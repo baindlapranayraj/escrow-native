@@ -33,7 +33,17 @@
 
 ### Project File architecture :
 
-<img src="images/project_structure.png" alt="Project Structure" width="100" height="100"/>
+<img src="images/project_structure.png" alt="Project Structure" width="900" height="500"/>
+<br/>
+
+### TokenAccount Structure:
+<img src="https://github.com/baindlapranayraj/escrow-native/blob/master/images/token_account.png" alt="Project Structure" width="900" height="500"/>
+
+<br/>
+
+### Whole Escrow Program Structure:
+<img src="https://github.com/baindlapranayraj/escrow-native/blob/master/images/account_flow.png" alt="Project Structure" width="900" height="500"/>
+
 
 ### Build and test for program compiled natively
 ```
