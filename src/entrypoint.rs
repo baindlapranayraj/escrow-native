@@ -2,6 +2,8 @@ use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg, pubkey::Pubkey,
 };
 
+use crate::processor::Processor;
+
 entrypoint!(process_instruction);
 
 fn process_instruction(
@@ -15,6 +17,10 @@ fn process_instruction(
         accounts.len(),
         instruction_data
     );
+    Processor::process(program_id, accounts, instruction_data)?;
     Ok(())
 }
 
+// ++++++++++++++++++++++++ Learnings ++++++++++++++++++++++++
+//
+// - the entrypoint returns a Result of either nothing or a ProgramError (ProgramResult)
